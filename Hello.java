@@ -2,6 +2,8 @@
 class Hello {
 
     public static void main(String a[]) {
-        System.out.print("Hello World");
+       int num = 7;
+       --num;
+        System.out.print(num);
     }
 }

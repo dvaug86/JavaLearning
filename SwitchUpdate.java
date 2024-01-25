@@ -42,8 +42,8 @@ public class SwitchUpdate {
         String day = "Friday";
         String result = "";
         result = switch (day) {
-            case "Saturday", "Sunday" -> "6am";
-            case "Monday" -> "8am";
+            case "Saturday", "Sunday" -> "6am";  
+            case "Monday" -> "8am";//you can also use case "Monday": yield "8am";
             default -> "7am";
         };
         System.out.println(result);

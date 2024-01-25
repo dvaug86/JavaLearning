@@ -1,4 +1,4 @@
-public class WhileLoop {
+public class LoopWhile {
     public static void main(String a[] ) {
 
 int i = 1;
